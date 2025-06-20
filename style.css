@@ -1,6 +1,6 @@
 body {
     height: 48rem;
-    background-color: rgb(127, 255, 165);
+    background-color: rgb(19, 39, 25);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +26,30 @@ body button {
   position: relative;
   background-color: rgb(120, 255, 255);
 }
+img{
+  box-shadow: 1rem 1rem 0.8rem rgba(255, 255, 255, 0.09 );
+}
+.img1 {
+  position: absolute;
+  top: 4rem;
+  left: 12rem;
+  height: 25rem;
+}
+
+.img2 {
+  position: absolute;
+  top: 35rem;
+  left: 39rem;
+  height: 23rem;
+}
+
+.img3 {
+  position: absolute;
+  top: 5rem;
+  left: 73rem;
+  height: 22rem;
+}
+
 
 /*div button {
     background-color: red;
