@@ -22,6 +22,7 @@ function buttom() {
         }
         const verification = confirm("Do you want to enter the data again?");
 
+        //use of boolean to continue or cancel the loop
         if (verification == true) {
             continue
         }
@@ -32,3 +33,13 @@ function buttom() {
 
     }
 }
+//Interactive button using randomX and randomY to give it random values, transform to move the button
+const boton = document.querySelector(".boton");
+boton.addEventListener
+    ("mouseover", () => {
+        const randomX = Math.floor
+            (Math.random() * 41) - 20;
+        const randomY = Math.floor
+            (Math.random() * 41) - 20;
+        boton.style.transform = `translate(${randomX}rem, ${randomY}rem)`;
+    }); 

@@ -1,6 +1,9 @@
 body {
     height: 48rem;
     background-color: rgb(127, 255, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body button {
@@ -8,18 +11,27 @@ body button {
     justify-content: center;
     align-items: center;
     height: 10rem;
-    width: 30rem;
+    width: 25rem;
     font-size: 4rem;
     color: rgb(0, 0, 0);
     border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
+.boton {
+  margin: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: relative;
+  background-color: rgb(120, 255, 255);
+}
 
-div button {
+/*div button {
     background-color: red;
     position: relative;
     animation-name: example;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
   }
